@@ -4,6 +4,10 @@ import mock2 from "../img/mock2.png"
 import mock3 from "../img/mock3.png"
 import mock4 from "../img/mock4.png"
 import mock5 from "../img/mock5.png"
+import mock6 from "../img/mock6.png"
+import mock7 from "../img/mock7.png"
+import mock8 from "../img/mock8.png"
+
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -49,7 +53,7 @@ export const info = {
         },
         {
             emoji: "🐈",
-            text: "father of a cat"
+            text: "like cats"
         },
         {
             emoji: "💡",
@@ -83,11 +87,11 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "I'm a Frontend developer in devRate. I studied CompSci at Hillel. With a keen interest in the ever-evolving world of technology, I thrive on turning ideas into interactive and visually appealing web solutions. My journey in web development has been an exciting exploration of coding, problem-solving, and staying at the forefront of industry trends. You should hire me! 😄",
+    bio: "I'm a Frontend developer in devRate. I studied CompSci at Hillel. Our company is building a project in React and Java using the MUI framework, which will be a platform for interviews in the IT industry, and uses all the advanced technologies. My journey in web development has been an exciting exploration of coding, problem-solving, and staying at the forefront of industry trends. You should hire me! 😄",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'typescript', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma', 'tailwindcss'],
-            exposedTo: ['nodejs', 'expressjs', 'mongodb']
+            proficientWith: ['javascript', 'react', 'typescript', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma', 'tailwindcss', 'mui'],
+            exposedTo: ['vue3', 'nodejs', 'expressjs', 'mongodb']
         }
     ,
     hobbies: [
@@ -126,25 +130,46 @@ export const info = {
             image: mock2
         },
         {
-            title: "Project 3",
-            description: "description",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Receipt Search app",
+            description: "In this app I'm using free third party API and build recipe and meal search application using Vue.js. By building this application I have learned how to interact with API, how to define parent and child routes in Vue.js, How to define layouts, how to create scalable file and folder structure, how to use Vue composition API and many other important things. For building this Interface I have used Tailwind css.",
+            live: "https://665d6dd67ea6b01362614798--zingy-choux-d1241f.netlify.app/",
+            source: "https://github.com/SerjioBlack/VUE_recepies_app",
             image: mock3
         },
         {
-            title: "Project 4",
-            description: "description",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "Driver's License Scanner and Extractor",
+            description: "Introducing App for extracting data from barcode or QR-code from US drivers license. That  App was build with React and Tesseract.js OCR library in collaboration with my US friends. This library supports more than 100 languages, automatic text orientation and script detection, a simple interface for reading paragraph, word, and character bounding boxes.",
+            live: "https://full-stack-swe-interview-challenge.netlify.app/",
+            source: "https://github.com/",
             image: mock4
         },
         {
-            title: "Project 5",
-            description: "description",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
+            title: "HLegal Law Company",
+            description: "A multi-page website of a law firm, the final task of the Front-end course, build with HTML, SCSS and JS, fully responsive, also using Swiper library for sliders",
+            live: "https://serjioblack.github.io/HLegal_Project-Final/",
+            source: "https://github.com/SerjioBlack/HLegal_Project-Final",
             image: mock5
+        },
+        {
+            title: "Memory card game",
+            description: "Challenge your memory with this interactive web-based Memory Game! 🃏 Built entirely with JS, HTML, and CSS, this project showcases my skills in front-end develop",
+            live: "https://playful-platypus-52b3d7.netlify.app/",
+            source: "https://github.com/SerjioBlack/Memory_game_JS",
+            image: mock6
+        },
+        {
+            title: "Organick shop",
+            description: "Crafted with HTML, CSS, and JavaScript, Organick showcases the potential of web development to create engaging platforms with a focus on sustainability.",
+            live: "https://serjioblack.github.io/Organick/portfolio.html",
+            source: "https://github.com/SerjioBlack/Organick",
+            image: mock7
+        },
+        {
+            title: "3 in a Row JS game",
+            description: "3 in a Row is more than a game; it's a testament to my dedication to creating enjoyable digital experiences. Dynamic game board with interactive tiles.",
+            live: "https://serjioblack.github.io/3_in_a_row/",
+            source: "https://github.com/SerjioBlack/3_in_a_row",
+            image: mock8
         }
     ]
 }
