@@ -103,8 +103,8 @@ export const info = {
     bio: "I'm a Frontend developer in devRate. I studied CompSci at Hillel. Our company is building a project in React and Java using the MUI framework, which will be a platform for interviews in the IT industry, and uses all the advanced technologies. My journey in web development has been an exciting exploration of coding, problem-solving, and staying at the forefront of industry trends. You should hire me! 😄",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'typescript', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma', 'tailwindcss', 'mui'],
-            exposedTo: ['vue3', 'nodejs', 'expressjs', 'mongodb']
+            proficientWith: ['javascript', 'react', 'typescript', 'git/github', 'bootstrap', 'html5', 'css3', 'figma', 'tailwindcss', 'mui'],
+            exposedTo: ['vue3', 'nodejs', 'expressjs', 'mongodb', 'sql']
         }
     ,
     hobbies: [

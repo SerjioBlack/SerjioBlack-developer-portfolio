@@ -43,8 +43,8 @@ export default function Navbar({ darkMode, handleClick, active, setActive }) {
 
     return (
         <Box component={'nav'} width={'100%'} position={singlePage ? 'fixed' : 'relative'} className={darkMode? Style.dark : Style.light}>
-            <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
-                gap={{ xs: '2rem', md: '8rem' }}
+            <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'} padding={1}
+                gap={{ xs: '1rem', md: '8rem' }}
                 textTransform={'lowercase'} fontSize={'1rem'}>
                 {links.map((link, index) => (
                     <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
