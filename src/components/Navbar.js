@@ -19,10 +19,9 @@ const links = [
         active: 'about'
     },
     {
-        name: info.initials,
-        type: 'initials',
-        to: '',
-        active: 'home'
+        name: 'Certificates',
+        to: 'certificates',
+        active: 'certificates'
     },
     {
         name: 'Portfolio',

@@ -7,6 +7,19 @@ import mock5 from "../img/mock5.png"
 import mock6 from "../img/mock6.png"
 import mock7 from "../img/mock7.png"
 import mock8 from "../img/mock8.png"
+import cert1 from "../img/cert1.png"
+import cert2 from "../img/cert2.png"
+import cert3 from "../img/cert3.png"
+import cert4 from "../img/cert4.png"
+import cert5 from "../img/cert5.png"
+import cert6 from "../img/cert6.png"
+import cert7 from "../img/cert7.png"
+import cert8 from "../img/cert8.png"
+import cert9 from "../img/cert9.png"
+import cert10 from "../img/cert10.png"
+import cert11 from "../img/cert11.png"
+import cert12 from "../img/cert12.png"
+
 
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -171,5 +184,43 @@ export const info = {
             source: "https://github.com/SerjioBlack/3_in_a_row",
             image: mock8
         }
+    ] ,
+    certificates: [ 
+        {
+            image: cert1
+        },
+        {
+            image: cert2
+        },
+        {
+            image: cert3
+        },
+        {
+            image: cert4
+        },
+        {
+            image: cert5
+        },
+        {
+            image: cert6
+        },
+        {
+            image: cert7
+        },
+        {
+            image: cert8
+        },
+        {
+            image: cert9
+        },
+        {
+            image: cert10
+        },
+        {
+            image: cert11
+        },
+        {
+            image: cert12
+        },
     ]
 }
